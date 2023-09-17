@@ -112,7 +112,7 @@
     }
 
     .image-box {
-        height: 850px;
+/*        height: 850px;*/
     }
 
     .strategy h2.mb-80 {
@@ -249,7 +249,7 @@
     }
 
     .image-box {
-        height: 750px;
+/*        height: 750px;*/
     }
 
     .contact.py-160 {
@@ -418,7 +418,7 @@
     }
 
     .image-box {
-        height: auto;
+/*        height: auto;*/
     }
 
     .font-76,
@@ -1847,4 +1847,40 @@ display: inline-block;
     }
 
     .cb-cursor{display: none !important}
+    
+    .image-box.my-60{
+       margin: 12px auto !important;
+    }
+    
+    .container-M{
+            width: 100% !important;
+    min-width: 100% !important;
+    } 
+    
+    .project-box-text {
+    padding: 32px 0;
+}
+    
+    .d-flex.image-box{
+        gap: 12px;
+        flex-direction: column;
+    }
+    
+    .d-flex.image-box > div{
+        width: 100% !important
+    }
+    
+    .outerhow-helped{display: none}
+    
+    .project-box-text .sub_title{
+        margin-top: 12px;
+        margin-bottom: 8px
+    }
+    
+    .project-box-text .P{font-size: 16px}
+    
+    .project-box-text .P.mb-40{
+        margin-bottom: 0
+    }
+    
 }

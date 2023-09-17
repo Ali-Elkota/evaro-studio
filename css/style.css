@@ -1121,18 +1121,15 @@ header .navbar-nav {
 }
 
 .project-box-text {
-  padding: 160px 64px;
-}
-
-.project-box-text2{
- padding: 120px 0   
+  padding: 60px 64px;
 }
 
 
 .project-box-text  .sub_title{
 line-height: 100%;
 text-transform: capitalize;
-    font-family: 'RomanHead';
+font-family: 'RomanHead';
+margin-top: 100px
 }
 
 
@@ -1145,8 +1142,7 @@ text-transform: capitalize;
   margin-bottom: 36px;
 }
 
-.project-box-text .P ,
-.project-box-text2 .P{
+.project-box-text .P{
   color: #606060;
     font-size: 26px;
     line-height: 140%;
@@ -1223,21 +1219,23 @@ text-transform: capitalize;
 
 /* How we helped */
 .how-helped {
-  padding: 80px 120px;
+  padding: 80px;
   display: flex;
   justify-content: space-between;
-  gap: 380px;
-  background: #F6F6F6;
   flex-wrap: wrap;
+  gap: 15px;
+  border: 1px solid #000;
+background: #FFF;
 }
 
 .how-helped p.font-36 {
   font-family: RomanHead;
+  line-height: 116%
 }
 
 .how-helped p.font-28 {
-  width: 700px;
   font-family: Sequel_book;
+  line-height: 160%
 }
 
 
@@ -1325,11 +1323,15 @@ header .navbar-toggler:not(.collapsed) .navbar-toggler-icon{
 
 /*------------------------------*/
 
-.panerPageo > img{
-        max-width: 100% !important;
+.panerPageo > img,
+.imgWidthAuto{
+    max-width: 100% !important;
     width: 100% !important;
     height: auto !important;
 }
+
+.mb-40{margin-bottom: 40px}
+
 
 
 
