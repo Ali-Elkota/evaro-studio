@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Evaro</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon/Favicon.png">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+    <!-- end -->
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/Cursor/css/main.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/customSpace.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- end -->
+
+</head>
+
+<body>
+    <main>
+        <!-- header -->
+        <header class="headerIndex">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid p-0">
+                        <a class="navbar-brand p-0" href="./index.html" data-cursor="-opaque">
+                            <img src="./images/evaro_studio.svg" alt="evaro_studio" class="black object-contain">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <!--<span class="fa-solid fa-xmark"></span>-->
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item font-24 position-relative">
+                                    <a class="text-decoration-none active" href="index.html" data-cursor="-opaque">
+                                        Home
+                                        <svg viewBox="0 0 199.764 28.384" width="100%" height="28px" class="hand-hover hand-hover-bottom hand-hover-center">
+                                            <defs>
+                                                <pattern id="weDoBig" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                                    <image href="https://burocratik.com/public/imgs/hovers/weDoBig.png"></image>
+                                                    // ! needs changing.
+                                                </pattern>
+                                            </defs>
+                                            <path fill="#fff" stroke="url(#weDoBig)" stroke-miterlimit="10" stroke-width="15" d="M1.278,20.993c57.833-10,172.186-12.391,198.167-13.5" style="stroke-dasharray: 198.749px; stroke-dashoffset: 0px;"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li id="nav-item" class="nav-item services-nav-item dropdown">
+                                    <a href="index.html" class="nav-link p-0 font-24 black-text d-flex align-items-center" data-cursor="-opaque">
+                                        Our Services
+                                    </a>
+                                    <ul id="services-menu" class="services-menu" data-aos="fade-in">
+                                        <li class="services-item">
+                                            <a class="branding service" href="index.html">Branding</a>
+                                        </li>
+                                        <li class="services-item">
+                                            <a class="ux-design service" href="index.html">UX Design</a>
+                                        </li>
+                                        <li class="services-item">
+                                            <a class="packagin-design service" href="index.html">Packaging Design</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item font-24 position-relative">
+                                    <a class="text-decoration-none" href="index.html" data-cursor="-opaque">
+                                        Our Work
+                                    </a>
+                                </li>
+                                <li class="nav-item font-24 position-relative branding-nav-item">
+                                    <a class="text-decoration-none" href="index.html">
+                                        Branding
+                                    </a>
+                                </li>
+                                <li class="nav-item font-24 position-relative btn-block">
+                                    <a class="text-decoration-none" href="index.html">
+                                        UX Design
+                                    </a>
+                                </li>
+
+                                <li class="nav-item font-24 position-relative btn-block">
+                                    <a class="text-decoration-none" href="index.html">
+                                        Packaging Design
+                                    </a>
+                                </li>
+                                <li class="nav-item position-relative display-none-btn">
+                                    <a class="text-decoration-none d-flex align-items-center" href="pages/contactUs.html" data-cursor="-opaque">
+                                        <span class="font-24 black-text me-3 SequelMedium">Let’s talk</span>
+                                        <img src="./images/arrowLink-b.svg" alt="arrow" class="linkarrow black" style="margin-bottom: 0;">
+                                        <img src="./images/arrowLinkwhite.svg" alt="arrow" class="linkarrow white">
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="text-decoration-none align-items-center btn-position-fixed" href="pages/contactUs.html" data-cursor="-opaque">
+                                <span class="font-24 black-text me-3 SequelMedium">Let’s talk</span>
+                                <img src="./images/arrowLink.svg" alt="arrow" class="linkarrow black">
+                                <img src="./images/arrowLinkwhite.svg" alt="arrow" class="linkarrow white">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- hero section -->
+        <section class="hero-section py-130">
+            <div class="container">
+                <div  data-aos="fade-up" data-aos="fade-up">
+                    <h1 class="line-height-110" data-cursor="-opaque">We believe that
+                        <span class="position-relative TheSVG">
+                            everyone
+                            <svg viewBox="0 0 432.614 38.978" width="100%" height="38px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -28px; transform: rotateX(35deg);">
+                                <defs>
+                                    <pattern id="weDoServices" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                        <image href="https://burocratik.com/public/imgs/hovers/weDoServices.png" />
+                                    </pattern>
+                                </defs>
+                                <path fill="#fff" stroke="url(#weDoServices)" stroke-miterlimit="10" stroke-width="14" d="M0.262,11.991c80-3,394.833-9,430.833-1" style="stroke-dasharray: 431.038px; stroke-dashoffset: 140%;" />
+                                <path fill="#fff" stroke="url(#weDoServices)" stroke-miterlimit="10" stroke-width="14" d="M115.679,32.075c25.5-4.283,131-12,170.25-7" style="stroke-dasharray: 170.669px; stroke-dashoffset: 55%;"> </path>
+                            </svg>
+                        </span>
+                        has a unique
+                        <span class="position-relative TheSVG">
+                            story
+                            <svg viewBox="0 0 410.069 207.808" width="100%" height="210%" class="hand-hover hand-hover-vertical hand-hover-center" style="bottom: -65px; width: 109%; left: -18px;">
+                                <defs>
+                                    <pattern id="design" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                        <image href="https://burocratik.com/public/imgs/hovers/design.png" />
+                                        // ! needs changing.
+                                    </pattern>
+                                </defs>
+                                <path fill="none" stroke="url(#design)" stroke-miterlimit="10" stroke-width="18" d="M187.717,59.72c3-20-3.615-36.224-41.667-36c-56.667,0.333-147,39-137.333,87c8.667,43.036,51.328,68.172,128.031,79.527c147.303,21.807,263.969-27.86,265.303-88.527c1.664-75.722-105.667-96.667-163.081-93.398C186.924,11.285,30.383,38.387,36.05,109.054c4.801,59.867,189.333,107.171,276,85.333c59.923-15.099,64.067-49.254,63.667-75.667c-0.333-22-17.333-82-141-92.333c-79.409-6.635-202,44.333-207,91.667c-1.859,17.597,17.613,25.229,27,27" style="stroke-dasharray: 2043.78px; stroke-dashoffset: 630%; transition-delay: 1.1s !important" />
+                            </svg>
+                        </span>
+                        to tell and an amazing idea that can
+                        change the world. We
+                        <span class="position-relative TheSVG">
+                            will be
+                            <svg viewBox="0 0 395.564 33.5" width="100%" height="33px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -10px; transform: rotateX(180deg);">
+                                <defs>
+                                    <pattern id="weDoBrands" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                        <image href="https://burocratik.com/public/imgs/hovers/weDoBrands.png" />
+                                        // ! Needs changing.
+                                    </pattern>
+                                </defs>
+                                <path fill="#fff" stroke="url(#weDoBrands)" stroke-miterlimit="10" stroke-width="14" d="M3.13,17.75c13-6.5,25.5-10.75,34-10.75s25,15,35,15s21.5-10,24-10s10,10.5,17.5,10s26.5-8.483,31-7.491s13,11.991,20,11.991s18.5-9,26-10s18.482,6.128,25,6c12.75-0.25,23.5-11,28-11s9,10.25,21,9.75s20.5-7.25,29-7.75s13.001,5.398,18.5,5.5c13.5,0.25,20.597-6.419,24-7c5.914-1.01,4.25,4.75,17.5,4.75c8.004,0,26-3.25,39,2.75" style="stroke-dasharray: 418.202px; stroke-dashoffset: 150%; transition-delay: 1.6s !important" />
+                            </svg>
+                        </span>
+                        there for
+                        <span class="position-relative TheSVG">
+                            our
+                            <svg viewBox="0 0 199.764 28.384" width="100%" height="28px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -10px; transform: rotateX(43deg); left: -4px;">
+                                <defs>
+                                    <pattern id="weDoBig" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                        <image href="https://burocratik.com/public/imgs/hovers/weDoBig.png" />
+                                        // ! needs changing.
+                                    </pattern>
+                                </defs>
+                                <path fill="#fff" stroke="url(#weDoBig)" stroke-miterlimit="10" stroke-width="15" d="M1.278,20.993c57.833-10,172.186-12.391,198.167-13.5" style="stroke-dasharray: 198.749px; stroke-dashoffset: 140%; transition-delay: 2s !important" />
+                            </svg>
+
+                        </span>
+                        clients at every stage of their
+                        <span class="position-relative TheSVG">
+                            journey.
+                            <svg viewBox="0 0 547.271 44.798" width="100%" height="44px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -21px; transform: rotateX(180deg); left: -9px;">
+                                <defs>
+                                    <pattern id="creativity" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                        <image href="https://burocratik.com/public/imgs/hovers/creativity.png" style="filter: invert(1);" />
+                                        // ! need changing
+                                    </pattern>
+                                </defs>
+                                <path fill="none" stroke="url(#creativity)" stroke-miterlimit="10" stroke-width="15" d="M8.649,42.045c-3.75-9.5,2.25-20,9.75-23.5S54.754,4.713,63.254,8.213s22.602,16.638,39.645,21.331c34.5,9.5,65.5-7.684,83.5-4.75c9.712,1.583,32,5.75,45.5,6.25s51-8.5,60.5-6.5s20,5.5,34.5,5.5s37-2.5,47.5,0s25.5,9,54.5,5.5s69.5-6.5,116-22" style="stroke-dasharray: 567.22px; stroke-dashoffset: 146%; transition-delay: 2.5s !important" />
+                            </svg>
+                        </span>
+                    </h1>
+                    <a href="pages/contactUs.html" class="lets-talk-mobile fontRomanHead black-text">Let's Talk!</a>
+                </div>
+            </div>
+        </section>
+        <!-- end hero section -->
+
+        <!-- Accrodion -->
+        <section class="accordion-section container my-60">
+            <div class="accordion" id="accordionHomepage">
+                <div class="accordion-item" data-aos="fade-up">
+                    <button type="button" data-cursor="-opaque" class="btnAccor-Opac collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>
+                    <h2 class="accordion-header" id="PackagingDesign">
+                        <div class="accordion-button p-0 line-height-38 font-48 black-text">
+                            <span class="line-height-38 font-48 black-text fontRomanHead">
+                                <aside>
+                                    Branding
+                                    <svg viewBox="0 0 395.564 33.5" width="100%" height="33px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -10px;">
+                                        <defs>
+                                            <pattern id="weDoBrands" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                                <image href="https://burocratik.com/public/imgs/hovers/weDoBrands.png" />
+                                                // ! Needs changing.
+                                            </pattern>
+                                        </defs>
+                                        <path fill="#fff" stroke="url(#weDoBrands)" stroke-miterlimit="10" stroke-width="14" d="M3.13,17.75c13-6.5,25.5-10.75,34-10.75s25,15,35,15s21.5-10,24-10s10,10.5,17.5,10s26.5-8.483,31-7.491s13,11.991,20,11.991s18.5-9,26-10s18.482,6.128,25,6c12.75-0.25,23.5-11,28-11s9,10.25,21,9.75s20.5-7.25,29-7.75s13.001,5.398,18.5,5.5c13.5,0.25,20.597-6.419,24-7c5.914-1.01,4.25,4.75,17.5,4.75c8.004,0,26-3.25,39,2.75" style="stroke-dasharray: 418.202px; stroke-dashoffset: 150%;" />
+                                    </svg>
+                                </aside>
+                            </span>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="PackagingDesign" data-bs-parent="#accordionHomepage">
+                                <p class="accordion-body font-28 line-height-26 p-0 mb-40">
+                                    Crafting memorable brands with soul and purpose. From ideation through to execution, we work closely with clients to deliver meaningful outcomes.
+                                </p>
+                                <a href="#">
+                                    Show me more
+                                </a>
+                            </div>
+                        </div>
+                    </h2>
+                </div>
+
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="20">
+                    <button type="button" data-cursor="-opaque" class="btnAccor-Opac collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></button>
+                    <h2 class="accordion-header" id="Branding">
+                        <div class="accordion-button p-0 line-height-38 font-48 black-text collapsed">
+                            <span class="line-height-38 font-48 black-text fontRomanHead">
+                                <aside>
+                                    UX Design
+                                    <svg viewBox="0 0 432.614 38.978" width="100%" height="38px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -30px !important; transform: rotateX(35deg);">
+                                        <defs>
+                                            <pattern id="weDoServices" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                                <image href="https://burocratik.com/public/imgs/hovers/weDoServices.png"></image>
+                                            </pattern>
+                                        </defs>
+                                        <path fill="#fff" stroke="url(#weDoServices)" stroke-miterlimit="10" stroke-width="14" d="M0.262,11.991c80-3,394.833-9,430.833-1" style="stroke-dasharray: 431.038px; stroke-dashoffset: 140%;"></path>
+                                        <path fill="#fff" stroke="url(#weDoServices)" stroke-miterlimit="10" stroke-width="14" d="M115.679,32.075c25.5-4.283,131-12,170.25-7" style="stroke-dasharray: 170.669px; stroke-dashoffset: 55%;"> </path>
+                                    </svg>
+                                </aside>
+                            </span>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="Branding" data-bs-parent="#accordionHomepage">
+                                <p class="accordion-body font-28 line-height-26 p-0 mb-40">
+                                    In the orchestra of digital interactions, let your brand's tune shine. With our UX design, ensure a harmonious journey.
+                                </p>
+                                <a href="#">
+                                    Show me more
+                                </a>
+                            </div>
+                        </div>
+                    </h2>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="30">
+                    <button type="button" data-cursor="-opaque" class="btnAccor-Opac collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></button>
+                    <h2 class="accordion-header" id="UX_Design">
+                        <div class="accordion-button p-0 line-height-38 font-48 black-text collapsed">
+                            <span class="line-height-38 font-48 black-text fontRomanHead">
+                                <aside>
+                                    Packaging Design
+                                    <svg viewBox="0 0 432.614 38.978" width="100%" height="38px" class="hand-hover hand-hover-bottom hand-hover-center">
+                                        <defs>
+                                            <pattern id="weDoServices" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                                <image href="https://burocratik.com/public/imgs/hovers/weDoServices.png" />
+                                            </pattern>
+                                        </defs>
+                                        <path fill="#fff" stroke="url(#weDoServices)" stroke-miterlimit="10" stroke-width="14" d="M0.262,11.991c80-3,394.833-9,430.833-1" style="stroke-dasharray: 431.038px; stroke-dashoffset: 140%;" />
+                                    </svg>
+
+                                </aside>
+                            </span>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="UX_Design" data-bs-parent="#accordionHomepage">
+                                <p class="accordion-body font-28 line-height-26 p-0 mb-40">
+                                    Your story deserves the right wrapping. With careful design, we ensure your brand's essence shines through every fold and crease.
+                                </p>
+                                <a href="#">
+                                    Show me more
+                                </a>
+                            </div>
+                        </div>
+                    </h2>
+
+                </div>
+            </div>
+        </section>
+        <!-- end Accrodion -->
+
+        <!-- Latest Work -->
+        <section class="last-work py-80">
+            <div class="container">
+                <div class="display-none" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0"></div>
+                <!-- <p class="font-18 fw-600 text-uppercase sub-title" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+          data-aos-delay="50" data-aos-offset="0">Our work</p> -->
+                <div class="d-flex justify-content-between align-items-center mb-48 display-none display-on-mobile" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                    <p class="font-18 fw-600 text-uppercase sub-title our-story display-on-mobile" style="display: none; margin-bottom: 10px; color: #000000">our work</p>
+                    <h2 class="font-40 mb-0 selected-work" data-cursor="-opaque">
+                        <span class="display-on-mobile" style="display: none">Hey! Here our</span><br>
+                        Selected Works
+                    </h2>
+                    <a href="#" class="font-20 text-decoration-none display-none" data-cursor="-opaque">
+                        <span class="font-24 black-text me-3 fontRomanHead"> Meet our work</span>
+                        <img src="./images/arrowLink-b.svg" alt="arrow" class="linkarrow">
+                    </a>
+                </div>
+                <div class="all-card-image">
+                    <div class="card-image btn-mark" data-aos="fade-up">
+                        <div class="container-img">
+                            <a href="./pages/projectDesign.html" target="_blank" data-cursor-text="View" data-cursor="-lg">
+                                <img src="./images/iblink.png" alt="Image Wrapper">
+                                <img src="images/HoverImages/iblink.gif">
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mt-16">
+                            <p class="font-32 mb-0 project-name" data-cursor="-opaque">iblink</p>
+                            <!--Packaging, Animation-->
+                            <span class="font-24 project-type" data-cursor="-opaque">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="card-image btn-mark" data-aos="fade-up">
+                        <div class="container-img">
+                            <a href="./pages/projectDesign.html" target="_blank" data-cursor-text="View" data-cursor="-lg">
+                                <img src="./images/frenzi.png" alt="Image Wrapper">
+                                <img src="images/HoverImages/Frenzi.gif">
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mt-16">
+                            <p class="font-32 mb-0 project-name" data-cursor="-opaque">Frenzi</p>
+                            <!--UIUX, Branding-->
+                            <span class="font-24 project-type" data-cursor="-opaque">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="card-image btn-mark" data-aos="fade-up">
+                        <div class="container-img">
+                            <a href="./pages/projectDesign.html" target="_blank" data-cursor-text="View" data-cursor="-lg">
+                                <img src="./images/branding/3.png" alt="Image Wrapper">
+                                <img src="images/HoverImages/Zaad.gif">
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mt-16">
+                            <p class="font-32 mb-0 project-name" data-cursor="-opaque">Zaad Farms</p>
+                            <!--Branding-->
+                            <span class="font-24 project-type" data-cursor="-opaque">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="card-image btn-mark" data-aos="fade-up">
+                        <div class="container-img">
+                            <a href="./pages/projectDesign.html" target="_blank" data-cursor-text="View" data-cursor="-lg">
+                                <img src="./images/Image.png" alt="Image Wrapper">
+                                <img src="images/HoverImages/ByBelo%20Saffron.gif">
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap mt-16">
+                            <p class="font-32 mb-0 project-name" data-cursor="-opaque">ByBelo Saffron</p>
+                            <!--Packaging, Branding-->
+                            <span class="font-24 project-type" data-cursor="-opaque">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="meet-our-work display-on-mobile" style="display: none;">
+                        <button data-cursor-text="CLICK!">
+                            <span>Meet our work</span> <img src="./images/Vector.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Latest Work -->
+
+        <!-- Our Story -->
+        <section class="our-story py-80 pb-0">
+            <div class="container">
+
+                <!--flex-wrap-->
+                <div class="d-flex our-story-container">
+                    <div class="inner-box our-story-text">
+                        <p data-cursor="-opaque" data-aos="fade-up" class="font-24 fw-600 text-uppercase sub-title our-story" style="margin-bottom: 14px; color: #000000">our story</p>
+                        <h3 data-aos="fade-up" class="font-76 mb-64 SequelMedium" data-cursor="-opaque">Someone’s <br> behind the
+                            <span class="position-relative SequelMedium TheSVG">
+                                story.
+                                <svg viewBox="0 0 395.564 33.5" width="100%" height="33px" class="hand-hover hand-hover-bottom hand-hover-center" style="bottom: -10px; transform: rotateX(180deg);">
+                                    <defs>
+                                        <pattern id="weDoBrands" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                            <image href="https://burocratik.com/public/imgs/hovers/weDoBrands.png" />
+                                            // ! Needs changing.
+                                        </pattern>
+                                    </defs>
+                                    <path fill="#fff" stroke="url(#weDoBrands)" stroke-miterlimit="10" stroke-width="14" d="M3.13,17.75c13-6.5,25.5-10.75,34-10.75s25,15,35,15s21.5-10,24-10s10,10.5,17.5,10s26.5-8.483,31-7.491s13,11.991,20,11.991s18.5-9,26-10s18.482,6.128,25,6c12.75-0.25,23.5-11,28-11s9,10.25,21,9.75s20.5-7.25,29-7.75s13.001,5.398,18.5,5.5c13.5,0.25,20.597-6.419,24-7c5.914-1.01,4.25,4.75,17.5,4.75c8.004,0,26-3.25,39,2.75" style="stroke-dasharray: 418.202px; stroke-dashoffset: 150%;" />
+                                </svg>
+                            </span>
+
+                        </h3>
+                        <p data-aos="fade-up" data-cursor="-opaque" class="font-26 gray-text mb-0 line-height-26" style="line-height: 33.8px;">
+                            Since the existence of humans on earth, they have immortalized their stories through art and design
+                            indifferent styles. Everything we see always tells a story to someone who wants to tell people about it,
+                            help them discover themselves, or give them something that facilitates their lives. Always and forever,
+                            there is someone behind anything we see and are fascinated by. Or something we interact with or use in our
+                            day -to-day life, and that's what the name of our studio means. "evaro" someone's behind this story.
+
+                        </p>
+                        <h3 data-aos="fade-up" class="font-34 tell-your-story" data-cursor="-opaque"> We're gonna help you tell
+                            the
+                            world your story!</h3>
+                        <p data-aos="fade-up" data-cursor="-opaque" class="font-26 gray-text mb-0 line-height-26" style="line-height: 33.8px;"> We believe each individual has a distinct
+                            tale to tell,
+                            and we
+                            aim to provide them with the tools and services to do so. Our studio name embodies this philosophy, and we
+                            are proud to offer a range of services that empower individuals to share their stories with the world.
+                        </p>
+                    </div>
+                    <div class="inner-box" data-aos="fade-down">
+                        <img src="./images/ourStory.svg" alt="Rectangle" class="object-cover image-large" data-magnetic data-cursor="-opaque">
+                        <img src="./images/ourStorySmall.svg" alt="Rectangle" class="object-cover image-small" data-magnetic data-cursor="-opaque">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Our Story -->
+
+        <!-- contact -->
+        <section class="contact py-160">
+            <div class="container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="0">
+                <p class="font-24 text-uppercase contact" data-cursor="-opaque">Contact</p>
+                <div class="contact-content">
+                    <h2 class="font-76 mb-48 line-height-80 contact-paragraph" data-cursor="-opaque">Let's start building something awesome together.</h2>
+                    <a data-cursor-text="CLICK!" href="pages/contactUs.html" class="btn-view-black font-24 text-decoration-none text-white d-flex justify-content-evenly align-items-center btn-touch">
+                        <span class="get-in-touch">Get in touch</span>
+                        <img src="./images/icon.png" alt="vector" class="vector without-hover">
+                        <img src="./images/arrow.svg" alt="vector" class="vector with-hover">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+
+        <!-- footer -->
+        <footer class="footer bg-black py-48">
+            <div class="container">
+                <div class="py-60 d-flex flex-wrap justify-content-between" style="padding-bottom: 30px">
+                    <div class="footer-card">
+                        <div class="logo mb-32" data-cursor="-opaque -lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="189" height="79" viewBox="0 0 189 79" fill="none">
+                                <path d="M20.241 60.6818L12.8742 59.6533C8.07106 59.0119 6.78925 58.1088 6.78925 55.6012C6.78925 52.583 8.83869 51.2947 14.6684 51.2947C21.7147 51.2947 23.6338 53.2844 23.6338 57.0766V57.4619H30.4882V57.2711C30.4882 49.6847 24.5952 45.7634 14.8585 45.7634C5.06025 45.7634 0 49.7447 0 55.3413C0 60.6763 3.6499 63.2493 9.67151 64.0161L18.3817 65.1754C22.9296 65.8169 24.4684 66.6545 24.4684 69.2911C24.4684 72.1204 22.6109 73.4032 16.3974 73.4032C9.7385 73.4032 7.23824 72.0549 7.23824 67.8775V67.3614H0.322263V67.5558C0.322263 74.9478 6.15015 78.9999 16.3974 78.9999C25.3646 78.9999 31.2577 75.4602 31.2577 69.4819C31.2577 64.216 27.7979 61.6448 20.241 60.6818Z" fill="white" />
+                                <path d="M45.6036 52.1959V67.1706C45.6036 71.0918 47.396 72.1203 51.37 72.1203H56.4284V78.3584H49.8329C42.9785 78.3584 38.751 75.3348 38.751 67.5558V52.1959H34.2031V46.4103H38.751V39.4036H45.6036V46.4103H56.4284V52.1959" fill="white" />
+                                <path d="M88.0664 62.2209C88.0664 69.1658 84.7985 72.7673 77.7539 72.7673C71.0299 72.7673 68.2743 69.7437 68.2743 63.7654V46.4104H61.4199V65.6316C61.4199 73.0217 65.7777 79 74.7431 79C82.9427 79 87.1684 73.8594 88.1931 68.459H88.5769V78.3585H94.919V46.4104H88.0664V62.2209Z" fill="white" />
+                                <path d="M128.604 62.7369C128.604 69.4274 124.442 72.64 117.653 72.64C110.8 72.64 106.891 70.0688 106.891 62.4207C106.891 54.7035 110.864 52.0669 117.524 52.0669C124.636 52.0669 128.604 55.4103 128.604 62.2262V62.7369ZM128.604 39.4036V55.0905H128.224C126.941 49.6883 122.648 45.767 115.091 45.767C105.418 45.767 99.9121 52.4576 99.9121 62.417C99.9121 72.2493 105.487 78.9998 115.54 78.9998C122.713 78.9998 127.39 75.5292 128.733 69.1712H129.184V78.3584H135.522V39.4036" fill="white" />
+                                <path d="M141.67 46.7955H148.588V39.4036H141.67V46.7955Z" fill="white" />
+                                <path d="M141.67 78.3585H148.582V50.5225H141.67V78.3585Z" fill="white" />
+                                <path d="M171.259 72.8309C163.572 72.8309 160.371 69.1658 160.371 62.4171C160.371 55.6012 163.574 51.8762 171.259 51.8762C179.008 51.8762 182.211 55.6012 182.211 62.4171C182.211 69.1658 179.008 72.8309 171.259 72.8309ZM171.259 45.7671C160.692 45.7671 153.582 52.4522 153.582 62.4171C153.582 72.2494 160.692 78.9999 171.259 78.9999C181.89 78.9999 189 72.2494 189 62.4171C189 52.4522 181.89 45.7671 171.259 45.7671Z" fill="white" />
+                                <path d="M27.2222 14.3314H6.53397C6.91779 8.61484 9.99196 5.46036 17.0383 5.46036C23.8275 5.46036 27.2222 8.28776 27.2222 14.206V14.3314ZM17.165 0C6.78925 0 0 6.68327 0 16.6482C0 27.3182 6.85261 33.2365 17.2936 33.2365C26.7714 33.2365 33.4321 28.5429 33.4321 21.727V21.1455H26.5143V21.6616C26.5143 25.4538 23.7606 27.6398 17.098 27.6398C9.73126 27.6398 6.72226 24.36 6.46517 18.1927H33.4936C33.6873 17.2242 33.7507 16.3266 33.7507 15.1691C33.7543 5.46582 27.0285 0 17.165 0Z" fill="white" />
+                                <path d="M64.5626 0.641357L53.2237 25.839H52.7131L41.376 0.641357H33.7539L48.6124 32.5895H57.0673L72.0543 0.641357" fill="white" />
+                                <path d="M84.6717 28.2213C80.7013 28.2213 78.9723 26.9984 78.9723 24.4254C78.9723 21.9178 80.7013 21.0855 84.2879 20.6349L96.7783 19.2194C96.7783 25.5193 91.9099 28.2213 84.6717 28.2213ZM88.8991 0C78.7786 0 72.7588 5.46036 72.7588 12.7269V12.9813H79.6114V12.7269C79.6114 8.03337 82.4955 6.10725 88.3868 6.10725C94.4717 6.10725 96.7783 7.97159 96.7783 13.243V15.1037L82.3018 16.6482C76.0249 17.3551 72.0527 19.9281 72.0527 24.876C72.0527 30.1474 76.2168 33.2365 82.8123 33.2365C90.0524 33.2365 95.109 30.0166 96.7765 24.6216H97.2236V32.5896H103.562V13.1776C103.568 5.52578 99.0196 0 88.8991 0Z" fill="white" />
+                                <path d="M127.457 0C120.923 0 117.465 4.11208 116.504 9.25627H116.055V0.641434H109.715V32.5896H116.631V14.653C116.631 8.93464 118.872 5.911 124.318 5.911C129.058 5.911 130.979 8.03336 130.979 12.6015V15.4289H137.831V11.2478C137.833 5.20415 134.694 0 127.457 0Z" fill="white" />
+                                <path d="M158.904 27.0638C151.218 27.0638 148.014 23.3969 148.014 16.6482C148.014 9.83229 151.218 6.10725 158.904 6.10725C166.653 6.10725 169.855 9.83774 169.855 16.6482C169.855 23.3969 166.653 27.0638 158.904 27.0638ZM158.904 0C148.334 0 141.225 6.68327 141.225 16.6482C141.225 26.4823 148.334 33.2365 158.904 33.2365C169.537 33.2365 176.646 26.4823 176.646 16.6482C176.646 6.68327 169.537 0 158.904 0Z" fill="white" />
+                                <path d="M177.825 39.4034C176.744 39.4034 176.076 38.9292 176.076 37.7008V35.2732H175.227V34.361H176.076V33.2544H177.158V34.361H178.978V35.2732H177.158V37.6354C177.158 38.2605 177.441 38.4186 178.067 38.4186H178.976V39.4034" fill="white" />
+                                <path d="M180.113 39.4035V34.361H181.114V35.8819H181.174C181.305 35.0406 181.851 34.2593 183.104 34.2593C184.247 34.2593 184.862 34.9607 185.005 35.9237H185.065C185.195 35.0642 185.762 34.2593 187.037 34.2593C188.34 34.2593 188.997 35.1569 188.997 36.3707V39.4035H187.916V36.6687C187.916 35.673 187.522 35.246 186.551 35.246C185.481 35.246 185.096 35.7947 185.096 36.9104V39.4035H184.013V36.6687C184.013 35.673 183.629 35.246 182.659 35.246C181.578 35.246 181.203 35.7947 181.203 36.9104V39.4035H180.113Z" fill="white" />
+                            </svg>
+                        </div>
+                        <p class="font-24 text-white SequelBook display-none" data-cursor="-opaque">
+                            We are based in <br>
+                            Kingdom of Saudi Arabia.
+                        </p>
+                    </div>
+                    <div class="footer-card display-none">
+                        <ul class="list-unstyled">
+                            <li class="text-white font-24 mb-32 fontRomanHead" data-cursor="-opaque">Evaro Studio™</li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="index.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">Home</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="index.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">Our work</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="pages/contactUs.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-card display-none">
+                        <ul class="list-unstyled">
+                            <li class="text-white font-24 mb-32 fontRomanHead" data-cursor="-opaque">Services</li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="index.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">Branding</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="index.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">UX Design</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="index.html" class="text-decoration-none text-white fontRomanHead" data-cursor="-opaque">Packaging Design</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-card">
+                        <ul class="list-unstyled social-media">
+                            <li class="text-white font-24 mb-32 display-none" data-cursor="-opaque">Social Media</li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="https://www.linkedin.com/company/evarostudio" class="text-decoration-none text-white" data-cursor="-opaque">LinkedIn</a>
+                                <a href="https://www.behance.net/evarostudio" class="text-decoration-none text-white" data-cursor="-opaque">Behance</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="https://twitter.com/evarostudio" class="text-decoration-none text-white" data-cursor="-opaque">Twitter</a>
+                                <a href="index.html" class="text-decoration-none text-white" data-cursor="-opaque">Dribbble</a>
+                            </li>
+                            <li class="text-white font-21 mb-20">
+                                <a href="https://www.facebook.com/evarostudio" class="text-decoration-none text-white" data-cursor="-opaque">Facebook</a>
+                                <a href="https://www.instagram.com/evaro.studio" class="text-decoration-none text-white" data-cursor="-opaque">Instagram</a>
+                            </li>
+                        </ul>
+                        <p class="font-16 text-white SequelBook d-none">
+                            We are based in <br>
+                            Kingdom of Saudi Arabia.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center flex-wrap copy-right">
+                    <p class="mb-0 font-20 gray-text-light" data-cursor="-opaque">© 2023 Evaro Studio. All rights reserved.</p>
+                    <a href="index.html" class="font-20 text-decoration-none gray-text-light" data-cursor="-opaque">Privacy Terms</a>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+    </main>
+    
+<!--    <script src="https://player.vimeo.com/api/player.js"></script>-->
+<!--
+    <p>
+        <a href="https://vimeo.com/862953215">logo</a>
+        from <a href="https://vimeo.com/evarostudio">Evaro Studio</a>
+        on <a href="https://vimeo.com">Vimeo</a>.
+    </p>
+-->
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 0, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 700, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: true, // whether elements should animate out while scrolling past them
+            //anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
+
+    <!-- bootstrap -->
+    <script src="./libs/jQuery.js"></script>
+    <script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- end -->
+
+    <script src="libs/Cursor/js/bundle.js"></script>
+    <!-- custom -->
+    <script src="/js/script.js" defer></script>
+    <script src="/js/home.js" defer></script>
+    <script>
+        $(document).ready(function() {
+            "user strict";
+            $(".hero-section").addClass("writingAnima");
+        });
+
+
+        $(window).on("scroll", function() {
+            $("main > section").each(function() {
+                if ($(window).scrollTop() >= $(this).offset().top - 500) {
+                    $(this).addClass("writingAnima");
+                }
+            });
+        });
+
+        $(window).resize(function() {
+
+            if ($(window).width() <= 575.98) {
+                $("body").addClass("lolo");
+            } else {
+                $("body").removeClass("lolo");
+            }
+
+
+        });
+
+        if ($(window).width() <= 575.98) {
+            $("body").addClass("scrollingHide");
+        } else {
+            $("body").removeClass("scrollingHide");
+        }
+
+
+        $(window).on("scroll", function() {
+            $(".scrollingHide .all-card-image > div").each(function() {
+                if ($(window).scrollTop() >= $(this).offset().top - 200) {
+                    $(this).addClass("showSVG").siblings().removeClass("showSVG");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
